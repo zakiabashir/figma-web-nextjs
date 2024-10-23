@@ -5,8 +5,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 export default function Footer() {
   return (
-    <footer id="contact" className="mt-10 bg-gray-100 text-center py-5" >
-      <p>Copyright © 2024 Zakia Bashir. All rights reserved.</p>
+    <footer id="contact" className="mt-10  text-center py-5" >
+      
       <div className="flex justify-center space-x-4 mt-3">
       <Link
               target="_blank"
@@ -30,6 +30,7 @@ export default function Footer() {
               <IoLogoVercel className="text-3xl hover:text-pink-900" />
             </Link>
       </div>
+      <p className="mt-2">Copyright © 2024 Zakia Bashir. All rights reserved.</p>
     </footer>
   )
 }
