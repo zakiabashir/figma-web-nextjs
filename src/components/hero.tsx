@@ -31,8 +31,8 @@ export default function Hero() {
             <Image
               src={ProfilePic}
               alt="Profile Picture"
-              width={250}
-              height={250}
+              width={150}
+              height={150}
               className="rounded-full"
             />
           </div>
