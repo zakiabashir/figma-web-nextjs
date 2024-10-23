@@ -7,7 +7,7 @@ export default function Header() {
 
   return (
     <header className=" z-50 sticky top-0 bg-red-50 flex justify-between items-center py-5 px-10">
-      <h1 className="text-3xl font-bold">Zakia's Portfolio</h1>
+      <h1 className="text-3xl font-bold">Zakia&apos;s Portfolio</h1>
 
       {/* Navigation for larger screens */}
       <nav className=" md:ml-auto  flex flex-wrap items-right text-base justify-end ">
